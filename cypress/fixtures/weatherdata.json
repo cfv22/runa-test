@@ -1,0 +1,23 @@
+{
+  "validRequest": {
+      "lat": 45.133,
+      "lon": 7.367,
+      "appid": "<<API_KEY>>"
+  },
+  "invalidAppIdRequest": {
+      "lat": 45.133,
+      "lon": 7.367,
+      "appid": "invalid_api_key"
+  },
+  "missingAppIdRequest": {
+      "lat": 45.133,
+      "lon": 7.367
+  },
+  "missingLatLonRequest": {
+      "appid": "<<API_KEY>>"
+  },
+  "cityRequest": {
+      "q": "Bogota",
+      "appid": "<<API_KEY>>"
+  }
+}
